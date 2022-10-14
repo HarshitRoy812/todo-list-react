@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/todo-list-react/static/css/main.495fbe64.css",
+    "main.js": "/todo-list-react/static/js/main.f19fdf9c.js",
+    "static/js/787.a5cad257.chunk.js": "/todo-list-react/static/js/787.a5cad257.chunk.js",
+    "static/media/wp.png": "/todo-list-react/static/media/wp.5a346f99d01d48d70309.png",
+    "static/media/Gilroy-Light.woff": "/todo-list-react/static/media/Gilroy-Light.bdf45661219c567ebdac.woff",
+    "static/media/Gilroy-ExtraBold.woff": "/todo-list-react/static/media/Gilroy-ExtraBold.56bf342b6199e1986e06.woff",
+    "static/media/Gilroy-Light.woff2": "/todo-list-react/static/media/Gilroy-Light.e9456927533041c4f265.woff2",
+    "static/media/Gilroy-ExtraBold.woff2": "/todo-list-react/static/media/Gilroy-ExtraBold.41ab67fe669d84602c39.woff2",
+    "index.html": "/todo-list-react/index.html",
+    "main.495fbe64.css.map": "/todo-list-react/static/css/main.495fbe64.css.map",
+    "main.f19fdf9c.js.map": "/todo-list-react/static/js/main.f19fdf9c.js.map",
+    "787.a5cad257.chunk.js.map": "/todo-list-react/static/js/787.a5cad257.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.495fbe64.css",
+    "static/js/main.f19fdf9c.js"
+  ]
+}
