@@ -1,0 +1,119 @@
+.todo 
+{
+    height : 50px;
+    display : flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top : 20px;
+    animation-name : popup;
+    animation-duration : 1s;
+
+    
+
+    h1 
+    {
+        padding-top : 10px;
+        height : 100%;
+        font-size: 23px;
+        text-align: center;
+        font-family : 'Gilroy';
+        color : #001219;
+        width : 230px;
+        background : #bbdefb;
+        border-top-left-radius: 3px;
+        border-bottom-left-radius: 3px;
+        text-transform: capitalize;
+        transition : 0.3s;
+    }
+
+    &_actions 
+    {
+        height : 100%;
+
+        button 
+        {
+            height : 100%;
+            width : 50px;
+            outline : none;
+            border : none;
+            cursor: pointer;
+            transition : 0.3s;
+
+            i 
+            {
+                color : white;
+                font-size: 17px;
+            }
+
+            &:active 
+            {
+                box-shadow: 5px 6px 16px -5px rgba(0,0,0,0.66) inset;
+            }
+        }
+
+        .btn_complete 
+        {
+            background : #38b000;
+
+            &:hover 
+            {
+                background : #008000;
+            }
+        }
+        .btn_remove 
+        {
+            background : #d90429;
+            border-top-right-radius: 3px;
+            border-bottom-right-radius: 3px;
+
+            &:hover 
+            {
+                background : #c1121f;
+            }
+        }
+
+        .red_bg 
+        {
+            background : #ffb703 !important;
+        }
+    }
+}
+@keyframes popup 
+{
+    from 
+    {
+        transform : translateY(-40%);
+        opacity : 0;
+    }
+    to 
+    {
+        transform : translateY(0%);
+        opacity : 1;
+    }
+}
+
+.popdown 
+{
+    animation-name : fade;
+    animation-duration : 0.5s;
+}
+
+@keyframes fade 
+{
+    from 
+    {
+        transform : rotate(0deg);
+        opacity : 1;
+    }
+    to 
+    {
+        transform : rotate(-40deg);
+        opacity : 0;
+    }
+}
+
+.completed 
+{
+    background : rgba(0,255,0,0.2) !important;
+    text-decoration: line-through;
+}

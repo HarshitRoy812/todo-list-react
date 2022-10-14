@@ -1,0 +1,22 @@
+*
+{
+    margin : 0;
+    padding : 0;
+    box-sizing: border-box;
+}
+body 
+{
+    height : 100vh;
+    width : 100vw;
+    background-image : url('../images/wp.png');
+    background-position: center;
+    background-size: cover;
+}
+
+@mixin flexRow 
+{
+    display : flex;
+    flex-direction : row;
+    align-items: center;
+    justify-content: space-around;
+}

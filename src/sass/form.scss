@@ -1,0 +1,67 @@
+.todo-form 
+{
+    display : flex;
+    flex-direction : column;
+    min-height : 30vh;
+    align-items: center;
+    justify-content: space-around;
+
+    &_header 
+    {
+        padding-top : 20px;
+        font-family : 'Gilroy';
+        font-size : 40px;
+        color : #001219;
+
+        &:after 
+        {
+            content : '';
+            display: block;
+            width : 30px;
+            margin : auto;
+            height : 2px;
+            background : #001219;
+        }
+    }
+
+    &_inputs 
+    {
+        width : 350px;
+        margin-top : 20px;
+        @include flexRow;
+
+        input 
+        {
+            height : 40px;
+            width : 250px;
+            outline : none;
+            border : none;
+            background : #ced4da;
+            border-radius: 3px;
+            text-indent: 15px;
+            font-family: 'Gilroy';
+            font-weight: bold;
+            font-size: 15px;
+        }
+
+        button 
+        {
+            height : 40px;
+            width : 80px;
+            outline : none;
+            border : none;
+            background : #ffba08;
+            border-radius: 3px;
+            font-family : 'Gilroy';
+            font-weight: bold;
+            cursor: pointer;
+            transition : 0.3s;
+
+            &:hover
+            {
+                background-color: #faa307;
+            }
+        }
+
+    }
+}

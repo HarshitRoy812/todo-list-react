@@ -1,0 +1,14 @@
+.list-container 
+{
+    width : 330px;
+    margin : auto;
+    margin-top : 20px;
+
+    &_tasks
+    {
+        display : flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    
+}
